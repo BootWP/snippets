@@ -60,9 +60,9 @@ $args = array(
 	'meta_query'	=> array(
 		array(
 			// 'compare_key' => 'LIKE', Meta query for wp 5.1
-			'key'	 	=> 'promo',
-			'value'	  	=> '',
-			'compare' 	=> '!=', // NOT EXISTS, 
+			'key'     => 'promo',
+			'value'   => '',
+			'compare' => '!=', // NOT EXISTS, 
 
 			//  must be only numbers
 			//'value' => '^[0-9]*$', // "misha_key" must be only numbers
