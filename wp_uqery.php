@@ -80,7 +80,8 @@ $args = array(
 		array(
 			'taxonomy' => 'post_format',
 			'field'    => 'slug',
-			'terms'    => array( 'video' )
+			'terms'    => array( 'video' ),
+			'operator' => 'NOT IN',
 		)
 	),
 	'date_query' => array(
