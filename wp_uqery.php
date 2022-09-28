@@ -54,6 +54,7 @@ $args = array(
 	'meta_value'     => 1,
 	'cat'            => array(1,2,3), // get categories and childrens
 	'category__in'   => array(1,2,3), // get categories without childrens
+	'category__and'  => array(1,2,3), // get posts if are in all categories
 	// 'category_name'       => 'cat-slug,cat-slug-2',
 	//'paged'          => $pages,
 	// 'post_status' => 'publish', // pending
